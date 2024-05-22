@@ -6,3 +6,7 @@ def call(String firstname="Obama", String lastname="Barrack") {
     }
     return "Yes Man"
 }
+
+def cloneRepo(String repoName){
+        echo repoName
+}
