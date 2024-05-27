@@ -5,5 +5,5 @@ def call(){
 }
 
 def callingMethodExample6(){
-  example6.cloneRepo("Ricky 001")
+  example6()
 }
