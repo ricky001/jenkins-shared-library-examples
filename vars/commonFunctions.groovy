@@ -9,7 +9,7 @@ return osName.toLowerCase()
 //Create a file with some text
 def createFile(String fileName, String text){
   echo "${filename.size()}"
-  assert isNullOrEmptyString(fileName) : "Error the filename doesn't exist"
+ // assert isNullOrEmptyString(fileName) : "Error the filename doesn't exist"
     bat "echo ${text} >> ${fileName}"
 }
 
