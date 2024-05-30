@@ -13,7 +13,7 @@ def createFile(String fileName, String text){
 }
 
 public boolean isNullOrEmptyString(String fileName){
-  if fileName == null || fileName.toLowerCase()=="null" || fileName.size()==0){
+  if (fileName == null || fileName.toLowerCase()=="null" || fileName.size()==0){
       return true
   }
   return false
