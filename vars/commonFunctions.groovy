@@ -18,3 +18,13 @@ public boolean isNullOrEmptyString(String fileName){
   }
   return false
 }
+
+def detectFiles(String path,String globText){
+
+  dir(path){
+
+    return findFiles(glob:globText)
+
+  }
+
+}
