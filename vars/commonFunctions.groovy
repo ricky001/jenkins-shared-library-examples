@@ -26,9 +26,9 @@ def detectFiles(String path,String globText){
     return findFiles(glob:globText)
 
   }
+}
+
 def call(){
   def envVariables = bat "set"
   echo "${envVariables}"
-}
-
 }
